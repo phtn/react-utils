@@ -1,0 +1,54 @@
+{
+  "name": "@re-up/react-utils",
+  "description": "React Utils - Most commonly used helper functions for react projects.",
+  "keywords": [
+    "react",
+    "utils",
+    "helpers",
+    "functions",
+    "typescript",
+    "functional",
+    "public",
+    "re-up",
+    "re-up.ph",
+    "manila"
+  ],
+  "author": "phtn",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "bunchee -o ./lib/index.js",
+    "dev": "bunchee -w --no-clean",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.11.0",
+    "@types/bun": "latest",
+    "@types/eslint": "^9.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "bunchee": "^5.4.0",
+    "eslint": "^9.11.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phtn/react-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phtn/react-utils/issues"
+  },
+  "homepage": "https://github.com/phtn/react-utils#readme"
+}
